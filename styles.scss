@@ -12,13 +12,13 @@
 }
 
 html { /* stylelint-disable-line */
+  max-width: $max-width;
   box-sizing: border-box;
   overflow-x: hidden;
 
   // TODO fleiri grunn stillingar
+
 }
 
-
-
 // TODO sækja allar sass skrár
-@import "scss/...";
+@import "scss/config.scss";
