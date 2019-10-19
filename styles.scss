@@ -152,6 +152,11 @@ h1 {
   font-size: 21px;
   padding-bottom: 0.5*$gutter;
   font-family: verdana;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration:none
 }
 
 .copyright{
@@ -167,6 +172,16 @@ h1 {
   .col-3 {
     width: 25%;
   }
+}
+
+.button {
+  background-color: $primaryBlue;
+  border-radius: 4px;
+  border: 0;
+  width: 260px;
+  margin-top: 2*$gutter;
+  padding: 0.5*$gutter $gutter 0.5*$gutter $gutter;
+  font-family: Open Sans;
 }
 
 .top {
