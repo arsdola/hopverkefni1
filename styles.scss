@@ -138,6 +138,27 @@ h1 {
   background-color: $primaryBlue;
 }
 
+.footerlist{
+  display: flex;
+  flex-direction: column;
+  color: $primaryWhite;
+  list-style: none;
+  line-height: 1.5;
+  font-family: open sans;
+}
+
+.box__firstli{
+  color: $primaryBlack;
+  font-size: 21px;
+  padding-bottom: 0.5*$gutter;
+  font-family: verdana;
+}
+
+.copyright{
+  margin: 0 auto;
+  padding: 2*$gutter;
+}
+
 .col-sm-6 {
   width: 50%;
 }
