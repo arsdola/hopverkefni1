@@ -63,16 +63,24 @@ main {
 
 .header {
   display: flex;
-  margin-top: 0;
+  margin: 0 auto;
   flex-direction: column;
   background-color: $primaryOrange;
   align-items: center;
+  padding-bottom: $gutter;
 }
 
 .header__list {
+  font-family: Open Sans;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  width: 100%;
+  flex: 1;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__li {
@@ -112,15 +120,13 @@ h2 {
 h1 {
   font-family: 'Oswald', verdana, serif;
   font-size: 48px;
+  padding-bottom: $gutter;
 }
 
 .header__row {
-  align-items: space-between;
+  align-items: center;
   display: flex;
   flex-direction: row;
-}
-
-.header__list {
 }
 
 .header__rightcorner {
@@ -128,6 +134,7 @@ h1 {
 
 .footer {
   margin-bottom: 0;
+  padding-bottom: 0;
   background-color: $primaryBlue;
 }
 
@@ -139,6 +146,10 @@ h1 {
   .col-3 {
     width: 25%;
   }
+}
+
+.top {
+    background-color: $primaryOrange;
 }
 
 // TODO sækja allar sass skrár
