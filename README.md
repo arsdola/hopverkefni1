@@ -2,9 +2,14 @@
 
 # Uppsetning á verkefni:
 
-Til að keyra verkefnið:
+Til að setja upp verkefnið:
 ```sh
 npm install
+npm run sass
+```
+
+```sh
+Til að keyra verkefnið:
 npm run dev
 ```
 
