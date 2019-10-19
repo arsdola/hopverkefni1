@@ -4,8 +4,8 @@
 
 Til að keyra verkefnið:
 ```sh
-npm install
-npm dev
+npm run install
+npm run dev
 ```
 
 til að linta verkefnið:

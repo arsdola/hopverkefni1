@@ -14,10 +14,131 @@
 html { /* stylelint-disable-line */
   max-width: $max-width;
   box-sizing: border-box;
+  margin: 0 auto;
   overflow-x: hidden;
+  font-size: 16px;
+  color: $primaryBlack;
+  background-color: $primaryWhite;
+}
 
-  // TODO fleiri grunn stillingar
+.fullvp {
+  width: 100vw;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: calc(50% - 50vw);
+}
 
+main {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125em;
+  letter-spacing: 0.05em;
+}
+
+.grid {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding-right: $gutter;
+  padding-left: $gutter;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.5*$gutter;
+  margin-left: -0.5*$gutter;
+}
+
+.col {
+  padding-right: 0.5*$gutter;
+  padding-left: 0.5*$gutter;
+}
+
+.col-sm-12 {
+  width: 100%;
+}
+
+.row:nth-child(1) {
+  order: 4;
+}
+
+.header {
+  display: flex;
+  margin-top: 0;
+  flex-direction: column;
+  background-color: $primaryOrange;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.header__li {
+  padding: 2px;
+}
+
+@media (max-width: 500px) {
+  .rowpriority {
+    order: -1;
+  }
+}
+
+@media (min-width: 501px) {
+  .col-6 {
+    width: 50%;
+  }
+}
+
+.box {
+  box-sizing: border-box;
+  margin-top: $gutter;
+  margin-bottom: $gutter;
+  border: 1px solid #000;
+}
+
+h2 {
+  margin-bottom: 2*$gutter;
+  font-family: 'Oswald', verdana, serif;
+  font-size: 24px;
+  font-style: bold;
+}
+
+.boximg {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Oswald', verdana, serif;
+  font-size: 48px;
+}
+
+.header__row {
+  align-items: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__list {
+}
+
+.header__rightcorner {
+}
+
+.footer {
+  margin-bottom: 0;
+  background-color: $primaryBlue;
+}
+
+.col-sm-6 {
+  width: 50%;
+}
+
+@media (min-width: 801px) {
+  .col-3 {
+    width: 25%;
+  }
 }
 
 // TODO sækja allar sass skrár
