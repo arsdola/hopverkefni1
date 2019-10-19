@@ -61,6 +61,8 @@ main {
   order: 4;
 }
 
+
+
 .header {
   display: flex;
   margin: 0 auto;
@@ -81,6 +83,9 @@ main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+
+
+  // transition: color 200ms ease-in-out;
 }
 
 .header__li {
@@ -159,6 +164,22 @@ li a {
   text-decoration:none
 }
 
+.footerlist li a:visited {
+  color: $primaryWhite;
+}
+
+.footerlist li a:visited {
+  color: $primaryWhite;
+}
+
+.header__list li a:visited {
+  color: $primaryBlack;
+}
+
+.header__list li a:visited:hover {
+  color: $primaryWhite;
+}
+
 .copyright{
   margin: 0 auto;
   padding: 2*$gutter;
@@ -168,8 +189,6 @@ li a {
   opacity:0;
   background-color: purple;
 }
-
-
 
 .col-sm-6 {
   width: 50%;
@@ -195,5 +214,20 @@ li a {
     background-color: $primaryOrange;
 }
 
-// TODO sækja allar sass skrár
+a {
+  transition:color 200ms ease-in-out;
+}
+
+a:visited:hover {
+  color: $primaryWhite;
+}
+
+a:hover {
+  color: $primaryWhite;
+}
+
+a:active {
+  color: $primaryWhite;
+}
+
 @import "scss/config.scss";
