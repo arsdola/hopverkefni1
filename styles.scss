@@ -181,6 +181,14 @@ a {
   color: $primaryBlack;
 }
 
+.footerlist a:link {
+  color: $primaryWhite;
+}
+
+.footerlist a:link:hover {
+  color: $primaryBlack;
+}
+
 .header a:visited {
   color: $primaryBlack;
 }
@@ -269,6 +277,14 @@ a:active {
 }
 
 .header a:visited:hover {
+  color: $primaryWhite;
+}
+
+.header a:link {
+  color: $primaryBlack;
+}
+
+.header a:hover {
   color: $primaryWhite;
 }
 
