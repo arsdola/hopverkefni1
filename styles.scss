@@ -101,6 +101,9 @@ main {
   .col-6 {
     width: 50%;
   }
+  .col-4 {
+    width: 50%;
+  }
 }
 
 .box {
@@ -242,6 +245,9 @@ a {
   .col-3 {
     width: 25%;
   }
+  .col-4 {
+    width: 33.33%;
+  }
 }
 
 .button {
@@ -286,6 +292,10 @@ a:active {
 
 .header a:hover {
   color: $primaryWhite;
+}
+
+.product__img {
+  max-width: 100%;
 }
 
 @import "scss/config.scss";
