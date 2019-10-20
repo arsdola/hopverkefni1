@@ -61,11 +61,10 @@ main {
   order: 4;
 }
 
-
-
 .header {
-  display: flex;
+  width: 100%;
   margin: 0 auto;
+  display: flex;
   flex-direction: column;
   background-color: $primaryOrange;
   align-items: center;
@@ -76,16 +75,19 @@ main {
   font-family: Open Sans;
   letter-spacing: 0.1em;
   font-weight: bold;
-  width: 100%;
-  flex: 1;
+  flex-grow: 1;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.underlined {
+  text-decoration: underline;
 }
 
 .header__li {
+  align-self: center;
   padding: 2px;
 }
 
@@ -126,12 +128,28 @@ h1 {
 }
 
 .header__row {
+  width: 100%;
   align-items: center;
   display: flex;
   flex-direction: row;
 }
 
+.whitespace {
+  width: 100px;
+}
+
 .header__rightcorner {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.cart__img {
+}
+
+.cart__item {
 }
 
 .footer {
@@ -165,16 +183,12 @@ li a {
   color: $primaryWhite;
 }
 
-.footerlist li a:visited {
-  color: $primaryWhite;
-}
-
-.header__list li a:visited {
+.footerlist li a:visited:hover {
   color: $primaryBlack;
 }
 
-.header__list li a:visited:hover {
-  color: $primaryWhite;
+.header a:visited {
+  color: $primaryBlack;
 }
 
 .copyright{
@@ -232,6 +246,12 @@ li a {
   margin-top: 2*$gutter;
   padding: 0.5*$gutter $gutter 0.5*$gutter $gutter;
   font-family: Open Sans;
+  transition:color 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+
+.button:hover {
+  color: $primaryWhite;
+  background-color: $primaryOrange;
 }
 
 .top {
@@ -253,5 +273,11 @@ a:hover {
 a:active {
   color: $primaryWhite;
 }
+
+.header a:visited:hover {
+  color: $primaryWhite;
+}
+
+
 
 @import "scss/config.scss";

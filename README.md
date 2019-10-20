@@ -10,6 +10,7 @@ npm run sass
 
 ```sh
 Til að keyra verkefnið:
+npm run sass
 npm run dev
 ```
 
