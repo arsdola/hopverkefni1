@@ -7,8 +7,9 @@
   <title>Prílihúsið - karfa</title>
   <link rel="stylesheet" href="../grid.css">
   <link rel="stylesheet" href="../styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans%7COswald&display=swap" rel="stylesheet">
 </head>
+<body>
 <header>
   <div class="fullvp top">
     <div class="grid">
@@ -24,15 +25,13 @@
           </ul>
           <div class="header__rightcorner">
             <img class=cart__img src="../img/cart.svg" alt="Karfa">
-            <a class="a" class="cart__item" href="cart.html">Karfa (6)</a>
+            <a class="a cart__item" href="cart.html">Karfa (6)</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </header>
-
-<body>
   <main class="main">
     <div class="grid">
       <div class="row">
@@ -51,7 +50,7 @@
                   </div>
                   <div class="cart__price-input">
                     <h3 class="product__header">49.900 kr.-</h3>
-                    <label class="cart__text" for="count">Fjöldi:</label>
+                    <label class="cart__text">Fjöldi:</label>
                     <div class="product__input">
                       <input class="input__value" type="number" name="count" value="2">
                       <button class="product__button"><img class="cart__image" src="../img/cart.svg"
@@ -73,7 +72,7 @@
                   </div>
                   <div class="cart__price-input">
                     <h3 class="product__header">4.900 kr.-</h3>
-                    <label class="cart__text" for="count">Fjöldi:</label>
+                    <label class="cart__text">Fjöldi:</label>
                     <div class="product__input">
                       <input class="input__value" type="number" name="count" value="4">
                       <button class="product__button"><img class="cart__image" src="../img/cart.svg"
@@ -92,15 +91,15 @@
                 <h2 class="cart__header">Sendingarupplýsingar</h2>
                 <div class="box__inputs">
                   <div class="input">
-                    <label for="name">Nafn:</label>
+                    <label>Nafn:</label>
                     <input class="box__inputs__values" type="text" name="name">
                   </div>
                   <div class="input">
-                    <label for="address">Heimilisfang:</label>
+                    <label>Heimilisfang:</label>
                     <input class="box__inputs__values" type="text" name="address">
                   </div>
                   <div class="input">
-                    <label for="postcode">Póstnúmer:</label>
+                    <label>Póstnúmer:</label>
                     <select class="box__inputs__values" name="postcode">
                       <option value=1>-Velja póstnúmer-</option>
                       <option value=2>101 Reykjavík</option>
@@ -118,17 +117,17 @@
                 <h2 class="cart__header">Greiðsluupplýsingar</h2>
                 <div class="box__inputs">
                   <div class="input">
-                    <label for="cardnum">Kortanúmer:</label>
+                    <label>Kortanúmer:</label>
                     <input class="box__inputs__values" type="tel" name="cardnum" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
                       value="1234-5678-9101-1121">
                   </div>
                   <div class="input">
-                    <label for="cardown">Korthafi:</label>
+                    <label>Korthafi:</label>
                     <input class="box__inputs__values" type="text" name="cardown">
                   </div>
                   <div class="input input__last">
-                    <label class="input__label__last" for="month" for="year">Gildistími:</label>
-                    <label for="month">Mán</label>
+                    <label class="input__label__last month">Gildistími:</label>
+                    <label>Mán</label>
                     <select class="box__inputs__select" name="month">
                       <option value=01>01</option>
                       <option value=02>02</option>
@@ -143,7 +142,7 @@
                       <option value=11>11</option>
                       <option value=12>12</option>
                     </select>
-                    <label for="year">Ár</label>
+                    <label>Ár</label>
                     <select class="box__inputs__select" name="month">
                       <option value="2019">2019</option>
                       <option value="2020">2020</option>
@@ -162,7 +161,7 @@
       </div>
     </div>
   </main>
-</body>
+
 
 <footer>
   <div class="fullvp footer">
@@ -215,4 +214,5 @@
     </div>
   </div>
 </footer>
+</body>
 </html>

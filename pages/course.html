@@ -7,8 +7,9 @@
   <title>Prílihúsið - námskeið</title>
   <link rel="stylesheet" href="../grid.css">
   <link rel="stylesheet" href="../styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans%7COswald&display=swap" rel="stylesheet">
 </head>
+<body>
 <header>
   <div class="fullvp top">
     <div class="grid">
@@ -24,7 +25,7 @@
           </ul>
           <div class="header__rightcorner">
             <img class=cart__img src="../img/cart.svg" alt="Karfa">
-            <a class="a" class="cart__item" href="cart.html">Karfa (6)</a>
+            <a class="a cart__item" href="cart.html">Karfa (6)</a>
           </div>
         </div>
       </div>
@@ -32,7 +33,7 @@
   </div>
 </header>
 
-<body>
+
   <main class="main">
     <div class="grid">
       <div class="row">
@@ -52,19 +53,19 @@
                 <h2 class="cart__header">Almennar upplýsingar</h2>
                 <div class="box__inputs">
                   <div class="input">
-                    <label for="name">Nafn:</label>
+                    <label>Nafn:</label>
                     <input class="box__inputs__values" type="text" name="name">
                   </div>
                   <div class="input">
-                    <label for="address">Heimilisfang:</label>
+                    <label>Heimilisfang:</label>
                     <input class="box__inputs__values" type="text" name="address">
                   </div>
                   <div class="input">
-                <label for="age">Aldur:</label>
+                <label>Aldur:</label>
                 <input class="box__inputs__values" type="number" name="age">
               </div>
               <div class="input">
-                <label for="course">Námskeið:</label>
+                <label>Námskeið:</label>
                 <select class="box__inputs__values" name="course">
                   <option value=1>V0 - V1</option>
                   <option value=2>V2 - V4</option>
@@ -81,17 +82,17 @@
               <h2 class="cart__header">Greiðsluupplýsingar</h2>
               <div class="box__inputs">
                 <div class="input">
-                  <label for="cardnum">Kortanúmer:</label>
+                  <label>Kortanúmer:</label>
                   <input class="box__inputs__values" type="tel" name="cardnum" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
                     value="1234-5678-9101-1121">
                 </div>
                 <div class="input">
-                  <label for="cardown">Korthafi:</label>
+                  <label>Korthafi:</label>
                   <input class="box__inputs__values" type="text" name="cardown">
                 </div>
                 <div class="input input__last">
-                  <label class="input__label__last" for="month" for="year">Gildistími:</label>
-                  <label for="month">Mán</label>
+                  <label class="input__label__last">Gildistími:</label>
+                  <label>Mán</label>
                   <select class="box__inputs__select" name="month">
                     <option value=01>01</option>
                     <option value=02>02</option>
@@ -106,7 +107,7 @@
                     <option value=11>11</option>
                     <option value=12>12</option>
                   </select>
-                  <label for="year">Ár</label>
+                  <label>Ár</label>
                   <select class="box__inputs__select" name="month">
                     <option value="2019">2019</option>
                     <option value="2020">2020</option>
@@ -123,7 +124,7 @@
       </div>
     </div>
   </main>
-</body>
+
 <footer>
   <div class="fullvp footer">
     <div class="grid">
@@ -175,4 +176,5 @@
     </div>
   </div>
 </footer>
+</body>
 </html>
