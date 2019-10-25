@@ -481,4 +481,18 @@ h1 {
   margin-bottom: 2*$gutter;
 }
 
+@media (min-width: 801px) {
+  .input__last {
+    justify-content: space-between;
+  }
+  .input__label__last {
+    margin: 0;
+  }
+}
+.course__text {
+  margin-top: 2*$gutter;
+  font-size: 21px;
+}
+
+
 @import "scss/config.scss";
