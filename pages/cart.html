@@ -37,64 +37,72 @@
     <div class="grid">
       <div class="row">
         <div class="col col-12 col-sm-12">
-          <div class="box cart__box">
-            <h2>Vörur í körfu</h2>
+          <div class="box">
+            <h2 class="cart__header">Vörur í körfu</h2>
             <div class="row">
-              <div class="col col-4-cart col-sm-12">
+              <div class="col col-4-cart col-sm-12 col__cart">
                 <img class="box boximg" src="../img/Backpack.jpg" alt="Mynd af bakpoka">
               </div>
-              <div class="col col-8 col-sm-12">
+              <div class="col col-8 col-sm-12 col__cart">
                 <div class="box cart__box">
-                  <h2>Bakpoki</h2>
-                  <p>Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
-                  <h3>49.900 kr.-</h3>
-                  <div class="input product__input">
-                    <label for="count">Fjöldi</label>
-                    <input type="number" name="count" value="2">
-                    <button class="product__button"><img class="cart__img" src="../img/cart.svg"
-                        alt="Karfa">Uppfæra</button>
-                    <button class="product__button"><img class="cart__img" src="../img/cart.svg" alt="Karfa">Eyða úr
-                      körfu</button>
+                  <div class="cart__header-text">
+                    <h2 class="cart__header">Bakpoki</h2>
+                    <p class="cart__text">Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
+                  </div>
+                  <div class="cart__price-input">
+                    <h3>49.900 kr.-</h3>
+                    <label class="cart__text" for="count">Fjöldi:</label>
+                    <div class="product__input">
+                      <input class="input__value" type="number" name="count" value="2">
+                      <button class="product__button"><img class="cart__image" src="../img/cart.svg"
+                          alt="Karfa">Uppfæra</button>
+                      <button class="product__button"><img class="cart__image" src="../img/cart.svg" alt="Karfa">Eyða úr
+                        körfu</button>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col col-4-cart col-sm-12">
+              <div class="col col-4-cart col-sm-12 col__cart">
                 <img class="box boximg" src="../img/chalkbag.jpg" alt="Mynd af kalkpoka">
               </div>
-              <div class="col col-8 col-sm-12">
+              <div class="col col-8 col-sm-12 col__cart">
                 <div class="box cart__box">
-                  <h2>Kalkpoki</h2>
-                  <p>Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
-                  <h3>4.900 kr.-</h3>
-                  <div class="input product__input">
-                    <label for="count">Fjöldi</label>
-                    <input type="number" name="count" value="4">
-                    <button class="product__button"><img class="cart__img" src="../img/cart.svg"
-                        alt="Karfa">Uppfæra</button>
-                    <button class="product__button"><img class="cart__img" src="../img/cart.svg" alt="Karfa">Eyða úr
-                      körfu</button>
+                  <div class="cart__header-text">
+                    <h2 class="cart__header">Kalkpoki</h2>
+                    <p class="cart__text">Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
+                  </div>
+                  <div class="cart__price-input">
+                    <h3>4.900 kr.-</h3>
+                    <label class="cart__text" for="count">Fjöldi:</label>
+                    <div class="product__input">
+                      <input class="input__value" type="number" name="count" value="4">
+                      <button class="product__button"><img class="cart__image" src="../img/cart.svg"
+                          alt="Karfa">Uppfæra</button>
+                      <button class="product__button"><img class="cart__image" src="../img/cart.svg" alt="Karfa">Eyða úr
+                        körfu</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col col-6 col-sm-12">
-              <div class="box">
-                <h2>Sendingarupplýsingar</h2>
+            <div class="col col-6 col-5 col-sm-12 ">
+              <div class="box box__input-box">
+                <h2 class="cart__header">Sendingarupplýsingar</h2>
                 <div class="box__inputs">
                   <div class="input">
                     <label for="name">Nafn:</label>
-                    <input type="text" name="name">
+                    <input class="box__inputs__values" type="text" name="name">
                   </div>
                   <div class="input">
                     <label for="address">Heimilisfang:</label>
-                    <input type="text" name="address">
+                    <input class="box__inputs__values" type="text" name="address">
                   </div>
                   <div class="input">
-                    <label for="postcode">Póstnúmer</label>
-                    <select name="postcode">
-                      <option value=1>-Velja póstmúmer-</option>
+                    <label for="postcode">Póstnúmer:</label>
+                    <select class="box__inputs__values" name="postcode">
+                      <option value=1>-Velja póstnúmer-</option>
                       <option value=2>101 Reykjavík</option>
                       <option value=3>102 Reykjavík</option>
                       <option value=4>103 Reykjavík</option>
@@ -105,22 +113,23 @@
                 </div>
               </div>
             </div>
-            <div class="col col-6 col-sm-12">
-              <div class="box">
-                <h2>Greiðsluupplýsingar</h2>
+            <div class="col col-6 col-5 col-sm-12">
+              <div class="box box__input-box">
+                <h2 class="cart__header">Greiðsluupplýsingar</h2>
                 <div class="box__inputs">
                   <div class="input">
                     <label for="cardnum">Kortanúmer:</label>
-                    <input type="tel" name="cardnum" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+                    <input class="box__inputs__values" type="tel" name="cardnum" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
                       value="1234-5678-9101-1121">
                   </div>
                   <div class="input">
                     <label for="cardown">Korthafi:</label>
-                    <input type="text" name="cardown">
+                    <input class="box__inputs__values" type="text" name="cardown">
                   </div>
-                  <div class="input">
+                  <div class="input input__last">
+                    <label class="input__label__last" for="month" for="year">Gildistími:</label>
                     <label for="month">Mán</label>
-                    <select name="month">
+                    <select class="box__inputs__select" name="month">
                       <option value=01>01</option>
                       <option value=02>02</option>
                       <option value=03>03</option>
@@ -135,7 +144,7 @@
                       <option value=12>12</option>
                     </select>
                     <label for="year">Ár</label>
-                    <select name="month">
+                    <select class="box__inputs__select" name="month">
                       <option value="2019">2019</option>
                       <option value="2020">2020</option>
                       <option value="2021">2021</option>
@@ -149,7 +158,7 @@
         </div>
       </div>
       <div class="row">
-        <button class="button grid__button">Kaupa</button>
+        <button class="button cart__button">Kaupa</button>
       </div>
     </div>
   </main>
@@ -163,39 +172,39 @@
           <div class="col col-3 col-sm-6">
             <ul class="box footerlist">
               <li class="box__firstli">Vöruflokkar</li>
-              <li><a href="pages/products.html">Nauðsynjavörur</a></li>
-              <li><a href="pages/products.html">Frábærar vörur</a></li>
-              <li><a href="pages/products.html">Ómissandi vörur</a></li>
-              <li><a href="pages/products.html">Ótrúlegar vörur</a></li>
-              <li><a href="pages/products.html">Magnaðar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Nauðsynjavörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Frábærar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Ómissandi vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Ótrúlegar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Magnaðar vörur</a></li>
             </ul>
           </div>
           <div class="col col-3 col-sm-6">
             <ul class="box footerlist">
               <li class="box__firstli">Vöruflokkar</li>
-              <li><a href="pages/products.html">Trylltar vörur</a></li>
-              <li><a href="pages/products.html">Geggjaðar vörur</a></li>
-              <li><a href="pages/products.html">Svakalegar vörur</a></li>
-              <li><a href="pages/products.html">Fáranlegar vörur</a></li>
-              <li><a href="pages/products.html">Klikkaðar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Trylltar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Geggjaðar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Svakalegar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Fáranlegar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Klikkaðar vörur</a></li>
             </ul>
           </div>
           <div class="col col-3 col-sm-6">
             <ul class="box footerlist">
               <li class="box__firstli">Námskeið</li>
-              <li><a href="pages/products.html">V0-V1 námskeið</a></li>
-              <li><a href="pages/products.html">V2-V4 námskeið</a></li>
-              <li><a href="pages/products.html">V5-V7 námskeið</a></li>
-              <li><a href="pages/products.html">Fjallaklifur námskeið</a></li>
+              <li class="footer__li"><a href="pages/products.html">V0-V1 námskeið</a></li>
+              <li class="footer__li"><a href="pages/products.html">V2-V4 námskeið</a></li>
+              <li class="footer__li"><a href="pages/products.html">V5-V7 námskeið</a></li>
+              <li class="footer__li"><a href="pages/products.html">Fjallaklifur námskeið</a></li>
             </ul>
           </div>
           <div class="col col-3 col-sm-6">
             <ul class="box footerlist">
               <li class="box__firstli">Síður</li>
-              <li><a href="pages/products.html">Allar vörur</a></li>
-              <li><a href="pages/staff.html">Starfsfólk</a></li>
-              <li><a href="pages/course.html">Námskeið</a></li>
-              <li><a href="pages/cart.html">Karfa</a></li>
+              <li class="footer__li"><a href="pages/products.html">Allar vörur</a></li>
+              <li class="footer__li"><a href="pages/staff.html">Starfsfólk</a></li>
+              <li class="footer__li"><a href="pages/course.html">Námskeið</a></li>
+              <li class="footer__li"><a href="pages/cart.html">Karfa</a></li>
             </ul>
           </div>
           <div class="copyright">
