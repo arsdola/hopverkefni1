@@ -214,17 +214,15 @@ a {
 
 .pichover {
   position: relative;
-  width: 50%;
 }
 
 .overlay {
   position: absolute;
-  top: 0;
+  top: 50%;
   right: 0;
-  bottom: 0;
+  bottom: 50%;
   left: 0;
   width: 100%;
-  height: 100%;
   background-color: $primaryWhite;
   opacity: 0;
   transition: 200ms ease-in-out;
@@ -233,9 +231,11 @@ a {
 .text {
   font-family: "Open sans";
   color: $primaryBlack;
+  text-align: center;
 }
 
 .text:first-child {
+  padding-bottom: 0.5*$gutter;
   font-family: Oswald, verdana, serif;
   font-size: 21px;
   font-weight: bold;
