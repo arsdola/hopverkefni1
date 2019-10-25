@@ -34,92 +34,125 @@
 
 <body>
   <main>
-    <div class="grid">
+    <div class="grid product__grid">
       <div class="row">
-        <div class="col col-4 col-sm-12">
-          <div class="box">
+        <div class="col col-4 col-sm-12 col__product">
+          <div class="box product__box">
             <img class="product__img" src="../img/Backpack.jpg" alt="Mynd af bakpoka">
-            <h2>Bakpoki</h2>
-            <p>Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
-            <h3>49.900 kr.-</h3>
-            <div class="input product__input">
-              <label for="count">Fjöldi</label>
-              <input type="number" name="count" value="1">
-              <button class="product__button"><img class=cart__img src="../img/cart.svg" alt="Karfa">Setja í
-                körfu</button>
+            <div class="cart__header-text">
+              <h2 class="cart__header">Bakpoki</h2>
+              <p class="cart__text">Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
             </div>
-          </div>
-        </div>
-        <div class="col col-4 col-sm-12">
-          <div class="box">
-            <img class="product__img" src="../img/chalkbag.jpg" alt="Mynd af kalkpoka">
-            <h2>Kalkpoki</h2>
-            <p>Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
-            <h3>4.900 kr.-</h3>
-            <div class="input product__input">
-              <label for="count">Fjöldi:</label>
-              <input type="number" name="count" value="1">
-              <button class="product__button"><img class=cart__img src="../img/cart.svg" alt="Karfa">Setja í
-                körfu</button>
-            </div>
-          </div>
-        </div>
-        <div class="col col-4 col-sm-12">
-          <div class="box">
-            <img class="product__img" src="../img/climbingrope.jpg" alt="Mynd af klifurlínu">
-            <h2>Klifurlína</h2>
-            <p>Farðu upp öll fjöll með þessari 200m klifurlínu.</p>
-            <h3>39.900 kr.-</h3>
-            <div class="input product__input">
-              <label for="count">Fjöldi:</label>
-              <input type="number" name="count" value="1">
-              <button class="product__button"><img class=cart__img src="../img/cart.svg" alt="Karfa">Setja í
-                körfu</button>
-            </div>
-          </div>
-        </div>
-        <div class="col col-4 col-sm-12">
-          <div class="box">
-            <img class="product__img" src="../img/shoes.jpg" alt="Mynd af klifurskóm">
-            <h2>Klifurskór</h2>
-            <p>Klifurskór með nanótækni sem gerir þér kleift að klifra upp slétta lóðrétta veggi.</p>
-            <h3>19.900 kr.-</h3>
-            <div class="input product__input">
-              <label for="count">Fjöldi:</label>
-              <input type="number" name="count" value="1">
-              <button class="product__button"><img class=cart__img src="../img/cart.svg" alt="Karfa">Setja í
-                körfu</button>
-            </div>
-          </div>
-        </div>
-        <div class="col col-4 col-sm-12">
-          <div class="box">
-            <img class="product__img" src="../img/Dring.jpg" alt="Mynd af karabínum">
-            <h2>Karabína 10 stk.</h2>
-            <p>Þessi karbína hefur styrkleika til þess að halda á 10 tonnum. Það er meira en 20 snorlax pókemonar.</p>
-            <h3>10.900 kr.-</h3>
-            <div class="input product__input">
-              <label for="count">Fjöldi:</label>
-              <input type="number" name="count" value="1">
-              <button class="product__button"><img class=cart__img src="../img/cart.svg" alt="Karfa">Setja í
-                körfu</button>
-            </div>
-          </div>
-        </div>
-        <div class="col col-4 col-sm-12">
-            <div class="box">
-              <img class="product__img" src="../img/Harness.jpg" alt="Mynd af klifurbelti">
-              <h2>Klifurbelti</h2>
-              <p>Hágæða klifurbelti með nanótækni og innbyggt bluetooth til þess að tengjast símanum þínum.</p>
-              <h3>1.999.900 kr.-</h3>
+            <div class="cart__price-input">
+              <h3>49.900 kr.-</h3>
+              <label class="cart__text" for="count">Fjöldi:</label>
               <div class="input product__input">
-                <label for="count">Fjöldi:</label>
-                <input type="number" name="count" value="1">
-                <button class="product__button"><img class=cart__img src="../img/cart.svg" alt="Karfa">Setja í
+                <input class="product__inputs__values" type="number" name="count" value="1">
+                <button class="product__button product__input-button"><img class=cart__image src="../img/cart.svg"
+                    alt="Karfa">Setja í
                   körfu</button>
               </div>
             </div>
           </div>
+        </div>
+        <div class="col col-4 col-sm-12 col__product">
+          <div class="box product__box">
+            <img class="product__img" src="../img/chalkbag.jpg" alt="Mynd af kalkpoka">
+            <div class="cart__header-text">
+              <h2 class="cart__header">Kalkpoki</h2>
+              <p class="cart__text">Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
+            </div>
+            <div class="cart__price-input">
+              <h3>4.900 kr.-</h3>
+              <label class="cart__text" for="count">Fjöldi:</label>
+              <div class="input product__input">
+                <input class="product__inputs__values" type="number" name="count" value="1">
+                <button class="product__button product__input-button"><img class=cart__image src="../img/cart.svg"
+                    alt="Karfa">Setja í
+                  körfu</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-4 col-sm-12 col__product">
+          <div class="box product__box">
+            <img class="product__img" src="../img/climbingrope.jpg" alt="Mynd af klifurlínu">
+            <div class="cart__header-text">
+              <h2 class="cart__header">Klifurlína</h2>
+              <p class="cart__text">Farðu upp öll fjöll með þessari 200m klifurlínu.</p>
+            </div>
+            <div class="cart__price-input">
+              <h3>39.900 kr.-</h3>
+              <label class="cart__text" for="count">Fjöldi:</label>
+              <div class="input product__input">
+                <input class="product__inputs__values" type="number" name="count" value="1">
+                <button class="product__button product__input-button"><img class=cart__image src="../img/cart.svg"
+                    alt="Karfa">Setja í
+                  körfu</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-4 col-sm-12 col__product">
+          <div class="box product__box">
+            <img class="product__img" src="../img/shoes.jpg" alt="Mynd af klifurskóm">
+            <div class="cart__header-text">
+              <h2 class="cart__header">Klifurskór</h2>
+              <p class="cart__text">Klifurskór með nanótækni sem gerir þér kleift að klifra upp slétta lóðrétta veggi.
+              </p>
+            </div>
+            <div class="cart__price-input">
+              <h3>19.900 kr.-</h3>
+              <label class="cart__text" for="count">Fjöldi:</label>
+              <div class="input product__input">               
+                <input class="product__inputs__values" type="number" name="count" value="1">
+                <button class="product__button product__input-button"><img class=cart__image src="../img/cart.svg"
+                    alt="Karfa">Setja í
+                  körfu</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-4 col-sm-12 col__product">
+          <div class="box product__box">
+            <img class="product__img" src="../img/Dring.jpg" alt="Mynd af karabínum">
+            <div class="cart__header-text">
+              <h2 class="cart__header">Karabína 10 stk.</h2>
+              <p class="cart__text">Þessi karbína hefur styrkleika til þess að halda á 10 tonnum. Það er meira en 20
+                snorlax pókemonar.</p>
+            </div>
+            <div class="cart__price-input">
+              <h3>10.900 kr.-</h3>
+              <label class="cart__text" for="count">Fjöldi:</label>
+              <div class="input product__input">                
+                <input class="product__inputs__values" type="number" name="count" value="1">
+                <button class="product__button product__input-button"><img class=cart__image src="../img/cart.svg"
+                    alt="Karfa">Setja í
+                  körfu</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-4 col-sm-12 col__product">
+          <div class="box product__box">
+            <img class="product__img" src="../img/Harness.jpg" alt="Mynd af klifurbelti">
+            <div class="cart__header-text">
+              <h2 class="cart__header">Klifurbelti</h2>
+              <p class="cart__text">Hágæða klifurbelti með nanótækni og innbyggt bluetooth til þess að tengjast símanum
+                þínum.</p>
+            </div>
+            <div class="cart__price-input">
+              <h3>1.999.900 kr.-</h3>
+              <label class="cart__text" for="count">Fjöldi:</label>
+              <div class="input product__input">
+                <input class="product__inputs__values" type="number" name="count" value="1">
+                <button class="product__button product__input-button"><img class=cart__image src="../img/cart.svg"
+                    alt="Karfa">Setja í
+                  körfu</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </main>
@@ -132,39 +165,39 @@
           <div class="col col-3 col-sm-6">
             <ul class="box footerlist">
               <li class="box__firstli">Vöruflokkar</li>
-              <li><a href="pages/products.html">Nauðsynjavörur</a></li>
-              <li><a href="pages/products.html">Frábærar vörur</a></li>
-              <li><a href="pages/products.html">Ómissandi vörur</a></li>
-              <li><a href="pages/products.html">Ótrúlegar vörur</a></li>
-              <li><a href="pages/products.html">Magnaðar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Nauðsynjavörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Frábærar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Ómissandi vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Ótrúlegar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Magnaðar vörur</a></li>
             </ul>
           </div>
           <div class="col col-3 col-sm-6">
             <ul class="box footerlist">
               <li class="box__firstli">Vöruflokkar</li>
-              <li><a href="pages/products.html">Trylltar vörur</a></li>
-              <li><a href="pages/products.html">Geggjaðar vörur</a></li>
-              <li><a href="pages/products.html">Svakalegar vörur</a></li>
-              <li><a href="pages/products.html">Fáranlegar vörur</a></li>
-              <li><a href="pages/products.html">Klikkaðar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Trylltar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Geggjaðar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Svakalegar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Fáranlegar vörur</a></li>
+              <li class="footer__li"><a href="pages/products.html">Klikkaðar vörur</a></li>
             </ul>
           </div>
           <div class="col col-3 col-sm-6">
             <ul class="box footerlist">
               <li class="box__firstli">Námskeið</li>
-              <li><a href="pages/products.html">V0-V1 námskeið</a></li>
-              <li><a href="pages/products.html">V2-V4 námskeið</a></li>
-              <li><a href="pages/products.html">V5-V7 námskeið</a></li>
-              <li><a href="pages/products.html">Fjallaklifur námskeið</a></li>
+              <li class="footer__li"><a href="pages/products.html">V0-V1 námskeið</a></li>
+              <li class="footer__li"><a href="pages/products.html">V2-V4 námskeið</a></li>
+              <li class="footer__li"><a href="pages/products.html">V5-V7 námskeið</a></li>
+              <li class="footer__li"><a href="pages/products.html">Fjallaklifur námskeið</a></li>
             </ul>
           </div>
           <div class="col col-3 col-sm-6">
             <ul class="box footerlist">
               <li class="box__firstli">Síður</li>
-              <li><a href="pages/products.html">Allar vörur</a></li>
-              <li><a href="pages/staff.html">Starfsfólk</a></li>
-              <li><a href="pages/course.html">Námskeið</a></li>
-              <li><a href="pages/cart.html">Karfa</a></li>
+              <li class="footer__li"><a href="pages/products.html">Allar vörur</a></li>
+              <li class="footer__li"><a href="pages/staff.html">Starfsfólk</a></li>
+              <li class="footer__li"><a href="pages/course.html">Námskeið</a></li>
+              <li class="footer__li"><a href="pages/cart.html">Karfa</a></li>
             </ul>
           </div>
           <div class="copyright">
@@ -175,5 +208,6 @@
     </div>
   </div>
 </footer>
+
 
 </html>
