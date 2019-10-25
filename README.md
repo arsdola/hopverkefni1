@@ -36,8 +36,8 @@ Skráin styles.scss er aðalskráin fyrir css því að skráin styles.css er b�
 út frá henni þegar keyrt er npm run sass.
 
 # Verkefnið gerðu:
-Ársól Drífa Ólafsdóttir ebo8@hi.is
+Ársól Drífa Ólafsdóttir ado12@hi.is
 
-Einar Björn Ólafsson ado12@hi.is
+Einar Björn Ólafsson ebo8@hi.is
 
 Snorri Steinn Stefánsson Thors sss55@hi.is
