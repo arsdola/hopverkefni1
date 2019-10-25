@@ -123,7 +123,7 @@ main {
   border: 1px solid #000;
 }
 
-h2 {
+.index__header {
   margin-bottom: 2*$gutter;
   font-family: Oswald, verdana, serif;
   font-size: 24px;
@@ -134,7 +134,7 @@ h2 {
   max-width: 100%;
 }
 
-h1 {
+.header__header {
   padding-bottom: $gutter;
   font-family: Oswald, verdana, serif;
   font-size: 60px;
@@ -370,7 +370,7 @@ a:active {
   border-radius: 3px;
 }
 
-h3 {
+.product__header {
   margin-bottom: 0.5*$gutter;
   font-family: Oswald, verdana, serif;
   font-size: 24px;
