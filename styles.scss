@@ -182,28 +182,28 @@ html { /* stylelint-disable-line */
   text-decoration: none;
 }
 
-a {
+.a {
   text-decoration: none;
   transition: color 200ms ease-in-out;
 }
 
-.footerlist a:visited {
+.footerlist .a:visited {
   color: $primaryWhite;
 }
 
-.footerlist a:visited:hover {
+.footerlist .a:visited:hover {
   color: $primaryBlack;
 }
 
-.footerlist a:link {
+.footerlist .a:link {
   color: $primaryWhite;
 }
 
-.footerlist a:link:hover {
+.footerlist .a:link:hover {
   color: $primaryBlack;
 }
 
-.header a:visited {
+.header .a:visited {
   color: $primaryBlack;
 }
 
@@ -222,8 +222,8 @@ a {
   right: 0;
   bottom: 50%;
   left: 0;
-  padding-bottom: 5*$gutter;
   width: 100%;
+  padding-bottom: 5*$gutter;
   background-color: $primaryWhite;
   opacity: 0;
   transition: 200ms ease-in-out;
@@ -289,27 +289,27 @@ a {
   background-color: $primaryOrange;
 }
 
-a:visited:hover {
+.a:visited:hover {
   color: $primaryWhite;
 }
 
-a:hover {
+.a:hover {
   color: $primaryWhite;
 }
 
-a:active {
+.a:active {
   color: $primaryWhite;
 }
 
-.header a:visited:hover {
+.header .a:visited:hover {
   color: $primaryWhite;
 }
 
-.header a:link {
+.header .a:link {
   color: $primaryBlack;
 }
 
-.header a:hover {
+.header .a:hover {
   color: $primaryWhite;
 }
 
