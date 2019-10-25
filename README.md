@@ -8,14 +8,18 @@ npm install
 npm run sass
 ```
 
-```sh
 Til að keyra verkefnið:
+```sh
 npm run sass
 npm run dev
 ```
 
 til að linta verkefnið:
-
 ```sh
 npm run lint
 ```
+
+# Verkefnið gerðu:
+Ársól Drífa Ólafsdóttir ebo8@hi.is
+Einar Björn Ólafsson ado12@hi.is
+Snorri Steinn Stefánsson Thors sss55@hi.is
