@@ -132,6 +132,7 @@ html { /* stylelint-disable-line */
 
 .boximg {
   max-width: 100%;
+  transition: 200ms ease-in-out;
 }
 
 .header__header {
@@ -224,7 +225,7 @@ html { /* stylelint-disable-line */
   left: 0;
   width: 100%;
   padding-bottom: 5*$gutter;
-  background-color: $primaryWhite;
+  //background-color: $primaryWhite;
   opacity: 0;
   transition: 200ms ease-in-out;
 }
@@ -236,6 +237,7 @@ html { /* stylelint-disable-line */
   font-size: 21px;
   color: $primaryBlack;
   text-align: center;
+  transition: 200ms ease-in-out;
 }
 
 .text:first-child {
