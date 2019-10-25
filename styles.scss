@@ -349,6 +349,7 @@ a:active {
   border: 1px solid $primaryBlack;
   border-radius: 3px;
   align-content: space-around;
+  transition: 200ms ease-in-out;
 }
 
 .cart__box {
@@ -511,10 +512,6 @@ a:active {
 .product__button:hover {
   background-color: $primaryBlue;
   border-color: $primaryBlue;
-  transition: 200ms ease-in-out;
-}
-
-.product__button {
   transition: 200ms ease-in-out;
 }
 
