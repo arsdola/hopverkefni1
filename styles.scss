@@ -507,4 +507,18 @@ a:active {
   font-size: 21px;
 }
 
+.product__button:hover {
+  background-color: $primaryBlue;
+  border-color: $primaryBlue;
+  transition: 200ms ease-in-out;
+}
+
+.product__button {
+  transition: 200ms ease-in-out;
+}
+
+.product__button:focus {
+  border-color: $primaryBlue;
+}
+
 @import "scss/config.scss";
