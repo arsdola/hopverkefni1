@@ -254,6 +254,10 @@ a {
   .col-4 {
     width: 33.33%;
   }
+  .col-5 {
+    width: 41.66%;
+    
+  }
 }
 
 .button {
@@ -302,6 +306,131 @@ a:active {
 
 .product__img {
   max-width: 100%;
+}
+
+.col__cart {
+  display: flex;
+  max-width: 100%;
+}
+
+.cart__header {
+  font-size: 36px;
+  margin-bottom: 0.5*$gutter;
+}
+
+.cart__text {
+  font-size: 14px;
+  margin-top: 0.5*$gutter;
+  margin-bottom: 0.5*$gutter;
+}
+.product__input {
+  display: flex;
+  flex-direction: row; 
+
+}
+.product__button {
+  border: 1px solid #000000;
+  border-radius: 3px;
+  font-size: 16px;
+  display: flex;
+  align-content: space-around;
+  margin-right: 0.5*$gutter;
+  padding: 0.5*$gutter;
+}
+.cart__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cart__image {
+  height: 17px;
+  margin-right: 0.5*$gutter;
+}
+.input__value {
+  width: 98px;
+  height: 40px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin-right: 0.5*$gutter;
+  padding: 0.5*$gutter;
+  font-size: 16px;;
+}
+h3 {
+  font-family: Oswald, verdana, serif;
+  font-size: 24px;
+  margin-bottom: 0.5*$gutter;
+}
+
+.box__inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input {
+  display: flex;
+  margin-top: 0.5*$gutter;
+  margin-bottom: 0.5*$gutter;
+  font-size: 16px;
+  justify-content: space-between;
+}
+.box__inputs__values {
+  width: 70%;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  height: 36px;
+  font-size: 18px;
+  
+}
+.box__inputs__select {
+  border: 1px solid #000000;
+  border-radius: 3px;
+  height: 36px;
+  font-size: 18px;
+}
+.cart__button {
+  font-size: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2*$gutter;
+  margin-bottom: 2*$gutter; 
+ 
+}
+.box__input-box {
+  margin-bottom: 0px;
+}
+
+.footer__li {
+  margin-top: 0.5*$gutter
+}
+.box__firstli {
+  font-weight: 600;
+}
+
+@media (min-width: 501px) {
+  .col-5 {
+    padding-right: 2*$gutter;
+  } 
+  .input__last {
+    justify-content: flex-end;
+  }
+  .input__label__last {
+    margin-right: auto;
+  }
+}
+h1 {
+  font-size: 60px;
+}
+.header__li {
+  margin-right: 0.5*$gutter
+}
+
+@media (min-width: 801px) {
+  .col-5:nth-child(1) {
+    margin-right: 3*$gutter; 
+  }
+  .col-5:nth-child(2) {
+    margin-left: 2*$gutter; 
+  }
 }
 
 @import "scss/config.scss";
