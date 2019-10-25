@@ -218,10 +218,11 @@ a {
 
 .overlay {
   position: absolute;
-  top: 50%;
+  top: 42.5%;
   right: 0;
   bottom: 50%;
   left: 0;
+  padding-bottom: 5*$gutter;
   width: 100%;
   background-color: $primaryWhite;
   opacity: 0;
