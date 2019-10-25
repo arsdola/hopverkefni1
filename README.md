@@ -32,6 +32,9 @@ pages inniheldur öll html skjöl fyrir undirsíður.
 
 scss mappan inniheldur config.scss sem geymir fasta, þ.e. liti, vídd og gutter.
 
+Skráin styles.scss er aðalskráin fyrir css því að skráin styles.css er búin til
+út frá henni þegar keyrt er npm run sass.
+
 # Verkefnið gerðu:
 Ársól Drífa Ólafsdóttir ebo8@hi.is
 
