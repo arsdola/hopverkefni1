@@ -1,4 +1,4 @@
-# Hópverkefni 1 vefforritun 1 2019
+# Hópverkefni 1 vefforritun 1 haust 2019
 
 # Uppsetning á verkefni:
 
@@ -18,6 +18,19 @@ til að linta verkefnið:
 ```sh
 npm run lint
 ```
+
+# Lýsing á verkefninu:
+
+Verkefnið var unnið eftir forskrift, sjá https://github.com/Wolfcoder13/vef1-2019-h1
+
+Möppurnar efni og utlit eru óbreyttar og innihalda annars vegar textann sem
+notaður var og hins vegar myndir af því hvernig vefurinn átti að líta út.
+
+Mappan img inniheldur allar ljósmyndir sem vefurinn notar.
+
+pages inniheldur öll html skjöl fyrir undirsíður.
+
+scss mappan inniheldur config.scss sem geymir fasta, þ.e. liti, vídd og gutter.
 
 # Verkefnið gerðu:
 Ársól Drífa Ólafsdóttir ebo8@hi.is
